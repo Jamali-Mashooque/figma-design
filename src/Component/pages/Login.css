@@ -1,0 +1,44 @@
+.login{
+  width: 450px;
+  height: 500px;
+  background-color: rgb(215, 225, 225);
+  margin: auto;
+ border-radius: 10px;
+ margin-top: 50px;
+}
+.login h2{
+  text-align: center;
+  padding-top: 50px;
+}
+.loginfarm label {
+  align-self: flex-start;   
+  margin-left: 75px;        
+}
+.loginfarm input{
+  width: 300px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  font-size: larger;
+}
+
+.loginfarm{
+ margin: auto;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 50px;
+}
+.loginfarm button{
+  margin-top: 40px;
+  width: 150px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(56, 56, 234);
+  font-size: x-large;
+  color: white;
+}
+.loginfarm p{
+  margin-top: 20px;
+}
