@@ -17,7 +17,7 @@ const handleRegister =async()=>{
         return
     }
     try {
-        const response = await fetch("http://localhost:5000/auth/register-user",
+        const response = await fetch("https://figma-design-backend-production.up.railway.app//auth/register-user",
             {
                 method :"POST",
                 headers :{
