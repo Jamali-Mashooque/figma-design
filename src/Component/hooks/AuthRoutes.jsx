@@ -7,7 +7,7 @@ const AuthRoutes = ({ children , setHandleLogin }) => {
     useEffect(() => {
         const fetchAuth = async () => {
             try {
-                const response = await fetch("https://figma-design-backend-production.up.railway.app//auth/auth-check"
+                const response = await fetch("https://figma-design-backend-production.up.railway.app/auth/auth-check"
                     ,
                     {
                         method: "Get",

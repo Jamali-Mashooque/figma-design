@@ -15,7 +15,7 @@ const navigate = useNavigate()
       }
       try {
         
-        const response = await fetch("https://figma-design-backend-production.up.railway.app//auth/login-user", {
+        const response = await fetch("https://figma-design-backend-production.up.railway.app/auth/login-user", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

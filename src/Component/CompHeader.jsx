@@ -10,7 +10,7 @@ const navigate = useNavigate();
 
     const handleLogout = async () => {
         try {
-            const response = await fetch("https://figma-design-backend-production.up.railway.app//auth/logout-user",
+            const response = await fetch("https://figma-design-backend-production.up.railway.app/auth/logout-user",
                 {
                     method: "POST",
                     credentials: "include",

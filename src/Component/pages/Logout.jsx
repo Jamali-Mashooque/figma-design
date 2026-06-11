@@ -12,7 +12,7 @@ const Logout = () => {
             try {
 
                 const response = await fetch(
-                    "https://figma-design-backend-production.up.railway.app//auth/logout",
+                    "https://figma-design-backend-production.up.railway.app/auth/logout",
                     {
                         method: "GET",
                         credentials: "include"
